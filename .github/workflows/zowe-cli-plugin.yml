@@ -10,8 +10,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node-version: [12.x, 14.x, 16.x]
-        os: [windows-latest, ubuntu-latest, macos-latest]
+        node-version: [14.x]
+        os: [windows-latest]
 
     env:
       OS: ${{ matrix.os }}
